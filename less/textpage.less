@@ -1,0 +1,27 @@
+@textColor: #333333;
+@backgroundColor: #dddddd;
+@blockPadding: 40px;
+@paragraphPadding: 15px;
+
+.lightTheme{
+	color: @textColor;
+	background-color: @backgroundColor;
+}
+
+.darkTheme{
+	color: @backgroundColor;
+	background-color: @textColor;
+}
+
+.padding(@padding){
+	padding:@padding;
+}
+
+.textPanel{
+	.lightTheme;
+	.padding(@blockPadding);
+}
+
+.textPanel p{
+	margin-bottom: @paragraphPadding;
+}

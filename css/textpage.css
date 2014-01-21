@@ -1,0 +1,16 @@
+.lightTheme {
+  color: #333333;
+  background-color: #dddddd;
+}
+.darkTheme {
+  color: #dddddd;
+  background-color: #333333;
+}
+.textPanel {
+  color: #333333;
+  background-color: #dddddd;
+  padding: 40px;
+}
+.textPanel p {
+  margin-bottom: 15px;
+}
